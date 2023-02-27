@@ -24,3 +24,15 @@ var c = "This is a ";
 a = a+1; //6
 b = b + 5; //15
 c = c + "string"; //This is a string <--- concatenated
+
+
+//OTHER EXAMPLES
+//Declarations
+var studlyCapVar;
+var properCamelCase;
+var titleCaseOver;
+
+//Assignments
+studlyCapVar = 10;
+properCamelCase = "String";
+titleCaseOver = 900;

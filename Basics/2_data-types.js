@@ -16,7 +16,7 @@ var exampleName = "Shannen"; //exampleName is a string
 exampleName = 8; //exampleName is now a number
 
 let nickName = "Nen";
-const pi = 3.14;
+const pi = 3.14;  
 //const pi = 5; <-- will cause an error
 //pi = 7; <-- would also cause an error
 

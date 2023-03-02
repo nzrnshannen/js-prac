@@ -21,3 +21,5 @@ var str = "Hello";
 str_len = str[str.length - 1];
 
 console.log("\nGetting the last character: " + str_len);
+
+//note: index number starts with 0, not 1

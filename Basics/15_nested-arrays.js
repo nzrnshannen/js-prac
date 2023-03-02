@@ -19,3 +19,19 @@ var arr = [1, 2, 3, 4, 5];
 arr[arr.length-1] = 100; //changing the value of the last element
 
 console.log(arr[arr.length-1]); //printing the last element of the array
+
+
+/****************************************************************** */
+//ACCESSING MULTIDIMENSIONAL ARRAYS
+
+var arr1 = [[1, 2, 3], [4, 5, 6], [7, 8, 9], [[10, 11, 12], 13, 14]];
+
+var data = arr1[0][0];
+
+console.log(data);
+
+//getting the value of 8:
+
+data = arr1[2][1];
+
+console.log(data);

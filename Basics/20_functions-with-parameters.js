@@ -11,4 +11,4 @@ function myFunc(a, b)
     console.log("Sum of a and b: ", a+b);
 }
 
-myFunc(10, 5);
+myFunc(10, 5); 

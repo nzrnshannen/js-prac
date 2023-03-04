@@ -6,7 +6,7 @@
     A: Remember, = is for ASSIGNING like:
         var num = 16
         const str = "Hello!"
-        So, it can't be used for comparison.
+        So, ( = ) can't be used for comparison.
 */
 
 function testEqual(val)

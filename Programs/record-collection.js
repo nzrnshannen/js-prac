@@ -35,7 +35,7 @@ function updateRecords(id, prop, value)
     {
         delete collection[id][prop];
     }
-    else if(prop === "tracks")
+    else if(prop === "tracks") //it will add a track (the value) to the end of the array
     {
         collection[id][prop] = collection[id][prop] || [];
 
@@ -49,5 +49,5 @@ function updateRecords(id, prop, value)
     return collection;
 }
 
-
+updateRecords(2468, "tracks", "test");
 console.log(updateRecords(5439, "artist", "ABBA"));

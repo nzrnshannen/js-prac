@@ -1,0 +1,66 @@
+================================================================
+                        JQUERY LIBRARY 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+
+---
+example:
+         $("p").addClass("blue-background");
+
+================================================================
+
+    SELECTORS
+
+    $('.power')
+        - selects all elements that have the class "power"
+    
+    $('#about')
+        - selects the single element with the id "about"
+    
+    $('div')
+        - selects all the divs
+    
+    $('div.power')
+        - selects the div with the class power
+
+    $('footer a.boss')
+        - selects all links with the class boss that are inside the footer
+
+    
+    -----
+
+    EVENTS
+
+    $('button').click(function()){
+    }
+        - will do something when a user clicks a button
+    
+    $('div.myform').submit(function()){
+    }
+        - will do soemthing when a user submits a form
+
+    $('#main').hover(function()){
+    } 
+        - will do something when a user hovers an html element
+
+    $('.power').keyup(function()){
+    }
+        - will do something when user types in a textbox
+
+    -----
+
+    ANIMATION
+    $('p').slideToggle("slow");
+        - slide or toggle animation with p tag
+    $('p').slideToggle(1000, function()){
+    }   
+        - do something when slide animation is done
+    
+    $('p').slideUp("slow", function()){
+    }
+        - hide the element within a sliding motion
+    
+    $('#text').fadeToggle("slow", function()){
+    }
+        - display or hide elements by animating opacity
+
+================================================
